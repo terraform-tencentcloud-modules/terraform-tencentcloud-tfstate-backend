@@ -118,13 +118,13 @@ variable "policy" {
 variable "terraform_backend_config_file_path" {
   type        = string
   default     = ""
-  description = "(Deprecated) Directory for the terraform backend config file, usually `.`. The default is to create no file."
+  description = "Directory for the terraform backend config file, usually `.`. The default is to create no file."
 }
 
 variable "terraform_backend_config_file_name" {
   type        = string
   default     = "terraform.tf"
-  description = "(Deprecated) Name of terraform backend config file to generate"
+  description = "Name of terraform backend config file to generate"
 }
 ###############
 # Cos file prefix
